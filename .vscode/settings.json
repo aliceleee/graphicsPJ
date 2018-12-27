@@ -1,0 +1,9 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false,
+    "python.autoComplete.extraPaths": [
+        "${env:SPARK_HOME}/python",
+        "${env:SPARK_HOME}/python/pyspark"
+    ],
+    "python.pythonPath": "/anaconda3/envs/graphics/bin/python"
+}
